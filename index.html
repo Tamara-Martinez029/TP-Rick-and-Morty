@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a06582fb16.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+ 
+    <div class="nombrePagina">
+        <a class="estaEnHeader" href="index.html">Rick and Morty</a>
+    </div>
+    <div class="imagen-adorno">
+        <img src="https://e1.pxfuel.com/desktop-wallpaper/392/180/desktop-wallpaper-rick-and-morty-iphone.jpg" height="150">
+    </div>
+    <div class="barr">
+           
+        <nav class="navbar-mobile">
+            <ul class="menu">
+              <li >
+                <a class="iconohambur"  href="#"><i class="fa-solid fa-bars fa-2xl" style="color: #6b705c;"></i></a>
+                <ul class="submenu">
+                  <li><a class="estaEnHeader" id="todos" href="#">Todos</a></li>
+                  <li> <a  class="estaEnHeader" id="mujeres" href="#">Mujeres</a></li>
+                  <li> <a  class="estaEnHeader" id="hombres"   href="#">Hombres</a></li>
+                  <li> <a  class="estaEnHeader" id="noSeSabe"   href="#">Genero desconocido</a></li>
+                  <li><a class="estaEnHeader" id="sinGenero"  href="#">Sin Genero</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+
+    </div>    
+    
+   
+<!--     <div class="menu">
+        <nav>
+            
+            <a class="estaEnHeader" id="todos" href="#">Todos</a>
+            <a  class="estaEnHeader" id="mujeres" href="#">Mujeres</a>
+            <a  class="estaEnHeader" id="hombres"   href="#">Hombres</a>
+            <a class="estaEnHeader" id="sinGenero"  href="#">Sin Genero</a>
+            <a  class="estaEnHeader" id="noSeSabe"   href="#">Genero desconocido</a>
+        
+        </nav>
+    </div> -->
+</header>
+
+<main>
+    <div class="cantidad">
+        <p>Total de personajes: <span id="total-personajes">
+        </span></p>
+    </div>
+    
+    <div id="root" class="personajes"></div>
+  
+        
+            
+        
+   
+    </div>
+    </section>
+</main>
+<div class="container-paginador">
+    
+    <p class="pagin-act">Pagina actual: <span id="pagina-actual"></span></p>
+    <p class="total-pag">Total de paginas: <span id="total-paginas"></span></p>
+
+<div class="pagination">
+    <button id="first-page"><<</button>
+    <button id="prev-page"><i class="fa-solid fa-arrow-left fa-lg" style="color: #76fd44;"></i></button>
+    <button id="next-page"><i class="fa-solid fa-arrow-right fa-lg" style="color: #7bf94e;"></i></button>
+    <button id="last-page">>></button>
+</div>
+
+</div>
+
+
+<footer>
+    <h4>Footer</h4>
+    <p>© 2023 Copyright Tamara-Martinez</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="logica.js"></script>
+</body>
+</html>
